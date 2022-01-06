@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-import { Button } from '../button/Button';
-import { CTABanner } from '../cta/CTABanner';
+import { Button } from '../components/button/Button';
+import { CTABanner } from '../components/cta/CTABanner';
 import { Section } from '../layout/Section';
 
 const Banner = () => (
-  <Section>
+  <Section fullSection>
     <CTABanner
       title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
       subtitle="Start your Free Trial."
